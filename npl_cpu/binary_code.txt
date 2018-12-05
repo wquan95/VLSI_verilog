@@ -1,0 +1,16 @@
+LD R0, #0           
+LD R1, #2           
+LD R2, #3           
+LD R3, #5           
+CMP R3               
+ADD R3, #1
+MUL R1, R2
+ADD R3,#1
+BRA #6, ZERO
+DIV R1, R2
+RMD R1, R2
+SHF R2, #1
+SHF R2, #-1
+ROT R2, #1
+ROT R2, #-1
+STR R2, #2
